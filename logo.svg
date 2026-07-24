@@ -1,18 +1,16 @@
 <svg width="800" height="800" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <path id="topArc" d="M 55,205 A 145,145 0 0 1 345,205" fill="none"/>
-  </defs>
 
   <!-- anello esterno singolo, essenziale -->
   <circle cx="200" cy="200" r="184" fill="none" stroke="#191A17" stroke-width="1.5"/>
 
-  <!-- testo arcuato superiore -->
-  <text font-family="'IBM Plex Mono', monospace" font-size="21" letter-spacing="5.5" fill="#191A17">
-    <textPath href="#topArc" startOffset="50%" text-anchor="middle">STEFANO RUFFINI</textPath>
-  </text>
+  <!-- nome, riga dritta in alto -->
+  <text x="200" y="95" font-family="'IBM Plex Mono', monospace" font-size="24" letter-spacing="3" fill="#191A17" text-anchor="middle">STEFANO RUFFINI</text>
+
+  <!-- piccola linea decorativa sotto il nome -->
+  <line x1="170" y1="112" x2="230" y2="112" stroke="#A9834D" stroke-width="1.5"/>
 
   <!-- fotocamera vintage, dettagliata -->
-  <g transform="translate(200,175)" fill="none" stroke="#191A17" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(200,205)" fill="none" stroke="#191A17" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
 
     <!-- corpo macchina -->
     <rect x="-62" y="-24" width="124" height="70" rx="6"/>
@@ -58,11 +56,11 @@
   </g>
 
   <!-- piccolo separatore decorativo -->
-  <line x1="170" y1="275" x2="230" y2="275" stroke="#A9834D" stroke-width="1.5"/>
+  <line x1="170" y1="288" x2="230" y2="288" stroke="#A9834D" stroke-width="1.5"/>
 
-  <!-- PHOTOGRAPHY, riga dritta, ben distanziata dalla fotocamera -->
-  <text x="200" y="300" font-family="'IBM Plex Mono', monospace" font-size="17" letter-spacing="7" fill="#191A17" text-anchor="middle">PHOTOGRAPHY</text>
+  <!-- PHOTOGRAPHY, riga dritta -->
+  <text x="200" y="313" font-family="'IBM Plex Mono', monospace" font-size="17" letter-spacing="7" fill="#191A17" text-anchor="middle">PHOTOGRAPHY</text>
 
   <!-- motto, riga dritta, sotto PHOTOGRAPHY -->
-  <text x="200" y="330" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" letter-spacing="0.3" fill="#A9834D" text-anchor="middle">keep on the sunny side</text>
+  <text x="200" y="343" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" letter-spacing="0.3" fill="#A9834D" text-anchor="middle">keep on the sunny side</text>
 </svg>
