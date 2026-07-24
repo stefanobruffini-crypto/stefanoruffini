@@ -1,0 +1,66 @@
+<svg width="800" height="800" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- anello esterno singolo, essenziale -->
+  <circle cx="200" cy="200" r="184" fill="none" stroke="#191A17" stroke-width="1.5"/>
+
+  <!-- nome, riga dritta in alto -->
+  <text x="200" y="95" font-family="'IBM Plex Mono', monospace" font-size="24" letter-spacing="3" fill="#191A17" text-anchor="middle">STEFANO RUFFINI</text>
+
+  <!-- piccola linea decorativa sotto il nome -->
+  <line x1="170" y1="112" x2="230" y2="112" stroke="#A9834D" stroke-width="1.5"/>
+
+  <!-- fotocamera vintage, dettagliata -->
+  <g transform="translate(200,205)" fill="none" stroke="#191A17" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- corpo macchina -->
+    <rect x="-62" y="-24" width="124" height="70" rx="6"/>
+    <!-- linea di giunzione tra piastra superiore e corpo -->
+    <line x1="-62" y1="-8" x2="62" y2="-8" stroke-width="1.5"/>
+
+    <!-- pentaprisma -->
+    <rect x="-24" y="-42" width="48" height="20" rx="3"/>
+    <!-- slitta flash -->
+    <rect x="-10" y="-50" width="20" height="8" rx="1"/>
+
+    <!-- ghiera di riavvolgimento, a sinistra -->
+    <circle cx="-46" cy="-32" r="8" stroke-width="2.5"/>
+    <line x1="-51" y1="-38" x2="-54" y2="-42" stroke-width="1.5"/>
+    <line x1="-41" y1="-38" x2="-38" y2="-42" stroke-width="1.5"/>
+
+    <!-- pulsante di scatto, a destra -->
+    <circle cx="46" cy="-32" r="5" fill="#A9834D" stroke="none"/>
+    <line x1="46" y1="-38" x2="46" y2="-44" stroke-width="2"/>
+
+    <!-- attacchi cinghia -->
+    <circle cx="-66" cy="0" r="4.5" stroke-width="2.5"/>
+    <circle cx="66" cy="0" r="4.5" stroke-width="2.5"/>
+
+    <!-- mirino ottico, piastra frontale -->
+    <rect x="-34" y="-16" width="16" height="8" rx="1.5"/>
+
+    <!-- obiettivo con ghiera diaframma dettagliata -->
+    <circle cx="0" cy="16" r="32" stroke-width="3"/>
+    <g stroke-width="1.5">
+      <line x1="0" y1="-16" x2="0" y2="-11"/>
+      <line x1="22.6" y1="-6.6" x2="19.6" y2="-3.6"/>
+      <line x1="32" y1="16" x2="27" y2="16"/>
+      <line x1="22.6" y1="38.6" x2="19.6" y2="35.6"/>
+      <line x1="0" y1="48" x2="0" y2="43"/>
+      <line x1="-22.6" y1="38.6" x2="-19.6" y2="35.6"/>
+      <line x1="-32" y1="16" x2="-27" y2="16"/>
+      <line x1="-22.6" y1="-6.6" x2="-19.6" y2="-3.6"/>
+    </g>
+    <circle cx="0" cy="16" r="22" stroke-width="2.5"/>
+    <circle cx="0" cy="16" r="12" stroke-width="2"/>
+    <path d="M -6,8 A 10,10 0 0 1 6,6" stroke="none" fill="#A9834D" opacity="0.6"/>
+  </g>
+
+  <!-- piccolo separatore decorativo -->
+  <line x1="170" y1="288" x2="230" y2="288" stroke="#A9834D" stroke-width="1.5"/>
+
+  <!-- PHOTOGRAPHY, riga dritta -->
+  <text x="200" y="313" font-family="'IBM Plex Mono', monospace" font-size="17" letter-spacing="7" fill="#191A17" text-anchor="middle">PHOTOGRAPHY</text>
+
+  <!-- motto, riga dritta, sotto PHOTOGRAPHY -->
+  <text x="200" y="343" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" letter-spacing="0.3" fill="#A9834D" text-anchor="middle">keep on the sunny side</text>
+</svg>
